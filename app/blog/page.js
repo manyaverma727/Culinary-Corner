@@ -29,7 +29,7 @@ const BlogPage = () => {
         <div className="blog-list">
           {blogs.map((blog, index) => (
             <div className="blog-card" key={index}>
-              <Image src={blog.strMealThumb || 'https://via.placeholder.com/300x200?text=No+Image'} 
+              <img src={blog.strMealThumb || 'https://via.placeholder.com/300x200?text=No+Image'} 
                 alt={blog.strMeal} 
                 className='blog-image'
               />

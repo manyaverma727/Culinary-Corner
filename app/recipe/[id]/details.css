@@ -2,7 +2,7 @@
     max-width: 800px;
     margin: 2rem auto;
     padding: 2rem;
-    background: #fff8f1;
+    background: transparent;
     border-radius: 16px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     font-family: 'Segoe UI', sans-serif;
@@ -11,7 +11,7 @@
   .recipe-container h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #c1440e;
+    color: #d2b48c;
     text-align: center;
   }
   
@@ -28,7 +28,7 @@
     justify-content: space-between;
     margin-bottom: 1rem;
     font-weight: bold;
-    color: #555;
+    color: #ffffff;
   }
   
   .recipe-section {
@@ -37,7 +37,7 @@
   
   .recipe-section h2 {
     font-size: 1.5rem;
-    color: #884400;
+    color:#d2b48c;
     margin-bottom: 0.5rem;
   }
   
@@ -45,7 +45,13 @@
   .recipe-section ol {
     padding-left: 1.5rem;
     line-height: 1.8;
-    color: #333;
+    color: #ffffff;
+  }
+  body {
+    background: url('/indibg.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
   }
   
   @media (max-width: 600px) {

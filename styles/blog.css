@@ -3,15 +3,15 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem 1rem;
-  background-color: #fff;
-  color: #000;
+  background-color:transparent;
+  color: #ffffff;
 }
 
 .page-title {
   font-size: 2.5rem;
   margin-bottom: 2rem;
   text-align: center;
-  color: #222;
+  color: #ffffff;
 }
 
 .blog-list {
@@ -24,7 +24,7 @@
   border: 1px solid #ddd;
   border-radius: 12px;
   overflow: hidden;
-  background: #fafafa;
+  background:transparent;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -42,13 +42,13 @@
   font-size: 1.5rem;
   font-weight: bold;
   margin: 0 0 0.5rem;
-  color: #111;
+  color: #ffffff;
 }
 
 .blog-description {
   font-size: 1rem;
   margin: 0.5rem 0 1rem;
-  color: #444;
+  color: #ffffff;
 }
 
 .blog-author {
@@ -72,4 +72,10 @@
 
 .blog-actions a:hover {
   text-decoration: underline;
+}
+body {
+  background: url('/indibg.jpg');
+  background-size: cover;
+  margin: 0;
+  padding: 0;
 }
