@@ -1,0 +1,49 @@
+.profileHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 9999px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ccc;
+  }
+  
+  .userInfo {
+    margin-top: 1rem;
+  }
+  
+  .name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fffafa;
+  }
+  
+  .bio {
+    font-size: 0.9rem;
+    color: #ffffff;
+    margin-top: 0.25rem;
+  }
+  .followButton {
+    margin-top: 0.75rem;
+    padding: 0.5rem 1.25rem;
+    background-color: #f3f4f6;
+    border: none;
+    border-radius: 9999px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .followButton:hover {
+    background-color: #e5e7eb;
+  }

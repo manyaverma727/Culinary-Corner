@@ -1,0 +1,73 @@
+/* Add this to set full-screen background */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.pinimg.com/736x/f3/0f/a1/f30fa1ff9a1f1109d90b1bb531f42c7e.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+  }
+  
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); 
+    z-index: -1;
+  }
+  
+  .create-page {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1;
+  }
+  
+  .create-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #d35400;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input,
+textarea {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: transparent; 
+  color: rgb(255, 255, 255); 
+  outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+  button {
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d35400;
+  }

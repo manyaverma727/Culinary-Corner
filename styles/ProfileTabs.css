@@ -1,0 +1,27 @@
+.tab-container {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #eee;
+    margin-top: 20px;
+  }
+  
+  .tab-link {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #a2a2a2;
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .tab-link:hover {
+    color: #f7f5f5;
+    border-color: #0e0e0e;
+  }
+  
+  .tab-link.active {
+    color: #fffefe;
+    border-bottom: 3px solid #000;
+    font-weight: 600;
+  }
