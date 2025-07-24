@@ -11,7 +11,7 @@ export default function TermsAndConditions() {
         <p>Last updated: July 22, 2025</p>
 
         <p>
-          Welcome to Culinary Corner! These Terms and Conditions ("Terms") govern your use of our website,
+          Welcome to Culinary Corner! These Terms and Conditions (&quot;Termsquot;) govern your use of our website,
           services, and platform available at <strong>www.culinarycorner.com</strong>. By accessing or using our site,
           you agree to comply with and be bound by these Terms.
         </p>
@@ -28,7 +28,7 @@ export default function TermsAndConditions() {
           By posting content (including recipes, comments, reviews, or photos), you grant us a non-exclusive,
           royalty-free, worldwide license to use, display, reproduce, and distribute such content on the
           platform. You are solely responsible for the content you share and agree not to post anything
-          offensive, misleading, or infringing on others' rights.
+          offensive, misleading, or infringing on others&apos; rights.
         </p>
 
         <h2>3. Intellectual Property</h2>
@@ -78,7 +78,7 @@ export default function TermsAndConditions() {
 
         <h2>10. Contact Us</h2>
         <p>
-          If you have any questions about these Terms and Conditions, please contact us at:{' '}
+          If you have any questions about these Terms and Conditions, please contact us at: 
           <strong>support@spicesavor.com</strong>
         </p>
       </div>

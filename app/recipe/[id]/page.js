@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
 import './details.css';
+import Image from 'next/image';
 
 export default function RecipeDetail() {
   const { id } = useParams();
@@ -25,7 +26,7 @@ export default function RecipeDetail() {
   return (
     <div className="recipe-container">
       <h1>{recipe.name}</h1>
-      <img src={recipe.image} alt={recipe.name} />
+      <Image src={recipe.image} alt={recipe.name} />
       <div className="recipe-info">
         <span>Difficulty: {recipe.difficulty}</span>
         <span>Prep: {recipe.prepTimeMinutes} min</span>

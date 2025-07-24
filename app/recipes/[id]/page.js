@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import './recipe.css';
+import Image from 'next/image';
 
 export default function RecipeDetail({ params }) {
   const { id } = params;
@@ -42,7 +43,7 @@ export default function RecipeDetail({ params }) {
       <div className="overlay">
         <div className="recipe-header">
           <h1>{recipe.name}</h1>
-          <img src={recipe.image} alt={recipe.name} className="detail-image" />
+          <Image src={recipe.image} alt={recipe.name} className="detail-image" />
         </div>
 
         <div className="info">

@@ -1,6 +1,7 @@
 'use client';
 import React, { useEffect, useState } from 'react';
 import "../../styles/blog.css";
+import Image from 'next/image';
 
 const BlogPage = () => {
   const [blogs, setBlogs] = useState([]);
@@ -28,7 +29,7 @@ const BlogPage = () => {
         <div className="blog-list">
           {blogs.map((blog, index) => (
             <div className="blog-card" key={index}>
-              <img src={blog.strMealThumb || 'https://via.placeholder.com/300x200?text=No+Image'} 
+              <Image src={blog.strMealThumb || 'https://via.placeholder.com/300x200?text=No+Image'} 
                 alt={blog.strMeal} 
                 className='blog-image'
               />

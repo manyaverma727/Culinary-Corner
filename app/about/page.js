@@ -16,7 +16,7 @@ export default function AboutPage() {
     <div className="about-section">
       <h2>Our Mission</h2>
       <p>
-        We aim to bring the world closer through food. Whether you're craving a classic Indian curry, a creamy Italian pasta, or a quick healthy meal, you'll find inspiration here.
+        We aim to bring the world closer through food. Whether you&apos;re craving a classic Indian curry, a creamy Italian pasta, or a quick healthy meal, you&apos;ll find inspiration here.
       </p>
     </div>
 
@@ -36,14 +36,14 @@ export default function AboutPage() {
     <div className="about-section">
       <h2>Our Vision</h2>
       <p>
-        We believe food is a universal language that connects hearts. SpiceSavor is more than a recipe site — it’s a place where culture, creativity, and passion meet on a plate.
+        We believe food is a universal language that connects hearts. SpiceSavor is more than a recipe site — it&apos;s a place where culture, creativity, and passion meet on a plate.
       </p>
     </div>
 
     <div className="about-section">
       <h2>Meet the Creator</h2>
       <div className="creator">
-        <img
+        <Image
           src="https://i.pinimg.com/736x/34/e4/62/34e4622ac9c2a69f0c3ca1bbec7bbc5b.jpg"
           alt="Creator"
           width={120}
@@ -51,7 +51,7 @@ export default function AboutPage() {
           className="creator-img"
         />
         <p>
-          Hi! I’m <strong>Manya Verma</strong>, a food enthusiast, developer, and the creator of SpiceSavor. I built this platform to share my love for culinary exploration and to create a space where food brings people together.
+          Hi! I&apos;m <strong>Manya Verma</strong>, a food enthusiast, developer, and the creator of SpiceSavor. I built this platform to share my love for culinary exploration and to create a space where food brings people together.
         </p>
       </div>
     </div>
@@ -59,7 +59,7 @@ export default function AboutPage() {
     <div className="about-section">
       <h2>Join Our Journey</h2>
       <p>
-        Whether you're here to learn, share, or simply scroll through mouthwatering dishes — we're thrilled to have you. Discover recipes, connect with fellow foodies, and let your culinary adventure begin.
+        Whether you&apos;re here to learn, share, or simply scroll through mouthwatering dishes — we&apos;re thrilled to have you. Discover recipes, connect with fellow foodies, and let your culinary adventure begin.
       </p>
     </div>
 

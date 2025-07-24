@@ -65,7 +65,7 @@ export default function PrivacyPolicy() {
 
         <h2>7. Changes to This Policy</h2>
         <p>
-          We may update this Privacy Policy from time to time. All changes will be posted on this page with a new “Last Updated” date.
+          We may update this Privacy Policy from time to time. All changes will be posted on this page with a new &quot;Last Updated&quot; date.
         </p>
 
         <h2>8. Contact Us</h2>

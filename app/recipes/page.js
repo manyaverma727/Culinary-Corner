@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import './recipes.css';
+import Image from 'next/image';
 
 export default function RecipesPage() {
   const [recipes, setRecipes] = useState([]);
@@ -25,11 +26,6 @@ export default function RecipesPage() {
     fetchRecipes();
   }, []);
 
-  const handleClick = (recipe) => {
-    localStorage.setItem('selectedRecipe', JSON.stringify(recipe));
-    router.push(`/recipe/${recipe.id}`);
-  };
-
   if (loading) {
     return <div className="loading">Loading recipes...</div>;
   }
@@ -44,7 +40,7 @@ export default function RecipesPage() {
             className="recipe-card"
             onClick={() => router.push(`/recipe/${recipe.id}`)}
           >
-            <img src={recipe.image} alt={recipe.name} className="recipe-image" />
+            <Image src={recipe.image} alt={recipe.name} className="recipe-image" />
             <div className="recipe-info">
               <h2 className="recipe-name">{recipe.name}</h2>
             </div>

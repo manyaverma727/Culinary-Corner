@@ -57,7 +57,7 @@ export default function ContactPage() {
           required
         ></textarea>
         <button type="submit">Send Message</button>
-        {submitted && <p className="success">Thank you! We'll get back to you soon. 💌</p>}
+        {submitted && <p className="success">Thank you! We&apos;ll get back to you soon. 💌</p>}
       </form>
     </div>
   );

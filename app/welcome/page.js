@@ -39,7 +39,7 @@ export default function WelcomePage() {
           Welcome to Culinary Corner!
         </h1>
         <p style={{ fontSize: '1.2rem', marginBottom: '2rem' }}>
-          We’re excited to have you here. Taking you to the home page...
+          We&apos;re excited to have you here. Taking you to the home page...
         </p>
         {/* <Link
           href="/blog"
