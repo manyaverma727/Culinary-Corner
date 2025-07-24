@@ -27,7 +27,7 @@ export default function RecipeDetail() {
   return (
     <div className="recipe-container">
       <h1>{recipe.name}</h1>
-      <Image src={recipe.image} alt={recipe.name} height={100} width={100} />
+      <img src={recipe.image} alt={recipe.name} height={100} width={100} />
       <div className="recipe-info">
         <span>Difficulty: {recipe.difficulty}</span>
         <span>Prep: {recipe.prepTimeMinutes} min</span>

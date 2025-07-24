@@ -40,7 +40,7 @@ export default function RecipesPage() {
             className="recipe-card"
             onClick={() => router.push(`/recipe/${recipe.id}`)}
           >
-            <Image src={recipe.image} alt={recipe.name} height={100} width={100} className="recipe-image" />
+            <img src={recipe.image} alt={recipe.name} height={100} width={100} className="recipe-image" />
             <div className="recipe-info">
               <h2 className="recipe-name">{recipe.name}</h2>
             </div>
