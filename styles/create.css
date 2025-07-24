@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('https://i.pinimg.com/736x/f3/0f/a1/f30fa1ff9a1f1109d90b1bb531f42c7e.jpg'); 
+    background-image: url('/createbg.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -2,8 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('https://i.pinimg.com/736x/ee/39/2d/ee392d95453997eaaad372367e29287e.jpg'); /* Change if needed */
-    background-size: cover;
+    background-image: url('/contactbg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     font-family: sans-serif;

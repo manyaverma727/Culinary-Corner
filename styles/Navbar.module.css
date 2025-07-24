@@ -5,6 +5,7 @@
   padding: 15px 30px;
   background: transparent;
   color: white;
+  position: relative;
 }
 
 .logo {
@@ -12,38 +13,64 @@
   font-weight: bold;
 }
 
+.hamburger {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+}
+
 .navLinks a {
   margin: 0 15px;
+  text-decoration: none;
+  color: white;
+}
+.navLinks a:hover {
+  color: #ff6347;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .navLinks {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background: #222;
+    flex-direction: column;
+    display: none;
+    text-align: center;
+    padding: 20px 0;
+    z-index: 999;
+  }
+
+  .navLinks a {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+
+  .navLinks.active {
+    display: flex;
+  }
+
+  .rightSection {
+    display: none;
+  }
 }
 
 .rightSection {
   display: flex;
   align-items: center;
   gap: 15px;
-}
-
-.searchWrapper {
-  position: relative;
-}
-
-.searchInput {
-  padding: 6px 8px 6px 28px;
-  border: none;
-  border-radius: 20px;
-}
-
-.searchIcon {
-  position: absolute;
-  top: 50%;
-  left: 8px;
-  transform: translateY(-50%);
-  color: #555;
-}
-
-.signupBtn {
-  padding: 6px 12px;
-  background: #ff6347;
-  border-radius: 6px;
 }
 
 .avatar {

@@ -44,7 +44,7 @@ export default function AboutPage() {
       <h2>Meet the Creator</h2>
       <div className="creator">
         <Image
-          src="https://i.pinimg.com/736x/34/e4/62/34e4622ac9c2a69f0c3ca1bbec7bbc5b.jpg"
+          src="/avatar1.jpg"
           alt="Creator"
           width={120}
           height={120}

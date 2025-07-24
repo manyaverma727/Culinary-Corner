@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "../styles/ProfileHeader.module.css";
+import Image from "next/image";
 
 export default function ProfileHeader() {
   return (
     <div className={styles.profileHeader}>
-      <img
-        src="https://i.pinimg.com/736x/34/e4/62/34e4622ac9c2a69f0c3ca1bbec7bbc5b.jpg"
+      <Image
+        src="/avatar.jpg"
         alt="User Avatar"
         className={styles.avatar}
       />

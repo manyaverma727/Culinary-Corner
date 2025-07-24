@@ -1,5 +1,5 @@
 .privacy-container {
-    background-image: url('https://i.pinimg.com/736x/3c/0f/b0/3c0fb0256dc3e97a6f77aec6bce93da7.jpg');
+    background-image: url('/privacybg.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -11,7 +11,7 @@
   }
   
   .privacy-content {
-    background-color: rgba(128, 128, 128, 0.3); /* Transparent grey */
+    background-color: rgba(128, 128, 128, 0.3); 
     backdrop-filter: blur(12px);
     border-radius: 16px;
     padding: 32px;

@@ -3,7 +3,7 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    background: url('/bg-recipes.jpg') no-repeat center center/cover;
+    background: url('/bg-recipes.jpg') ;
     font-family: 'Segoe UI', sans-serif;
   }
   

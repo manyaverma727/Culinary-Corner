@@ -9,7 +9,7 @@ export default function Home() {
       style={{
         backgroundImage: `
           linear-gradient(rgba(31, 31, 31, 0.7), rgba(31, 31, 31, 0.7)),
-          url('https://i.pinimg.com/1200x/11/04/ce/1104ceec7c36ec21bcf821dcdf7393c4.jpg')
+          url('/homebg.jpg')
         `,
         backgroundColor: "#1f1f1f", 
         backgroundSize: "cover",
