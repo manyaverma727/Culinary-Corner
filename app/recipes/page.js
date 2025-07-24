@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import './recipes.css';
+import Image from 'next/image';
 
 export default function RecipesPage() {
   const [recipes, setRecipes] = useState([]);

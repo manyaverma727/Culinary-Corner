@@ -1,5 +1,3 @@
-// components/Header.js
-
 export default function Header() {
     return (
       <header className="bg-orange-100 py-6 text-center shadow-md">
